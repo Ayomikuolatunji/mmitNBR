@@ -1,0 +1,178 @@
+
+.registerform {
+    display: block;
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+}
+
+.formWrapper {
+    display: block;
+    background-color: teal;
+    max-width: 100%;
+    width: 900px;
+    margin: auto;
+    position: relative;
+    z-index: 9999;
+    font-family: -apple-system;
+    line-height: 1.3;
+}
+
+.formWrapper2 {
+    line-height: 2;
+    position: relative;
+    display: block;
+    padding: 10px;
+    margin: 8px;
+}
+
+.create {
+    text-align: center;
+    color: var(--lightcolor);
+    font-size: 1.4rem;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-overflow: clip;
+}
+
+.formWrapper3 {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 12px;
+}
+
+label {
+   display: inline-block;
+   position: relative;
+   line-height: 2;
+   font-size: 1.2rem;
+   margin: 5px;
+   z-index: 1;
+   color: black;
+}
+
+input[type=text], input[type=email], input[type=password]{
+    width: 404px;
+    height: 50px;
+    text-align: center;
+    font-size: initial;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-radius: 7px;
+    font-family: Arial;
+    font-size: 13.33px;
+    outline: 0;
+}
+
+span {
+    color: white;
+    display: block;
+    font-size: 1.6rem;
+    position: absolute;
+    z-index: 1;
+    top: -6px;
+    left: 60px;
+}
+
+input[type=tel] {
+    max-width: 100%;
+    width: 405px;
+    height: 50px;
+    text-align: center;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-radius: 7px;
+    outline: 0;
+}
+label[for=submit] {
+    display: block;
+    position: relative;
+   text-align: center;
+   left: 2px;
+}
+
+input[type=button] {
+    width: 300px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: orange;
+    color: var(--lightcolor);
+    font-family: arial;
+    font-size: 13.33px;
+    outline: none;
+    border: 0;
+    border-radius: 6px;
+}
+
+input[type=button]:hover {
+    transition: ease all 0.5s;
+}
+
+.just {
+    display: block;
+    width: 3px;
+    height: 110px;
+    background-color: orange;
+    position: absolute;
+    top: 17px;
+    z-index: 1;
+    left: 425px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: black;
+    font-family: arial;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-overflow: clip;
+    font-style: normal;
+    font-variant: normal;
+}
+.or {
+    font-size: 1.4rem;
+    font-weight: 0;
+    font-family: -apple-system;
+}
+
+label[for=facebook], label[for=google] {
+    display: block;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.facebook, .google {
+    height: 40px;
+    width: 400px;
+    cursor: pointer;
+    font-size: 13.33px;
+    font-family: arial;
+    border-radius: 8px;
+    border-style: none;
+    color: black;
+    outline: 0;
+}
+.fab1{
+    font-size: 30px;
+    position: absolute;
+    z-index: 1;
+    left: 5px;
+    top: 7.5px;
+}
+
+.facebook:hover, .google:hover {
+    background-color: orange;
+    color: white;
+}
+
+

@@ -1,0 +1,1213 @@
+
+
+/*Media query for min- width : 1281px*/
+@media (min-width: 1281px) {
+ 
+  .HeaderSection {
+
+    background-color: white;
+    height: 90px;
+    width: 100%;
+    position: relative;
+    line-height: 1;
+  }
+  
+  .headingtitle{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: gold;
+  }
+  
+  .HeaderDesign {
+  padding: 30px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .search{
+  display: block;
+  position: relative;
+  }
+  #search-space {
+  width: 390px; 
+  height: 35px;
+  margin-left: 10px;
+  border-radius: 9px;
+  text-align:center;
+  position: relative;
+  outline: 0; 
+  }
+  
+  #submit{
+  border-radius: 5px;
+  outline: 0;
+  height: 35px;
+  padding: 10px;
+  margin: -5px;
+  color: white;
+  background: black;
+  border: 0;
+  cursor: pointer;
+  }
+  
+  .titlebtn {
+  display:block;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+  .titlebtn #btn1{
+  background-color: white;
+  display: inline-block;
+  height: 35px;
+  color: black;
+  padding: 13px;
+  text-align: center;
+  width: 100px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: arial;
+  }
+  
+  
+  .titlebtn #btn1:hover {
+  background-color: teal;
+  color: white;
+  transition: ease 0.8 background;
+  }
+  
+  .titlebtn #btn2{
+   background-color: white;
+   display: inline-block;
+   height: 35px;
+   color: black;
+   padding: 13px;
+   text-align: center;
+   width: 100px;
+   cursor: pointer;
+   font-size: 16px;
+   font-family: arial;
+  }
+  
+  .titlebtn #btn2:hover {
+  background-color: teal;
+  color: white;
+  }
+
+
+}
+
+/*media quey for devices with min-width: 1025px*/ 
+@media (max-width) {
+
+  .HeaderSection {
+
+    background-color: white;
+    height: 90px;
+    width: 100%;
+    position: relative;
+    line-height: 1;
+  }
+  
+  .headingtitle{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: gold;
+  }
+  
+  .HeaderDesign {
+  padding: 30px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .search{
+  display: block;
+  position: relative;
+  }
+  #search-space {
+  width: 300px; 
+  height: 35px;
+  margin-left: 10px;
+  border-radius: 9px;
+  text-align:center;
+  position: relative;
+  outline: 0; 
+  }
+  
+  #submit{
+  border-radius: 5px;
+  outline: 0;
+  height: 35px;
+  padding: 10px;
+  margin: -5px;
+  color: white;
+  background: black;
+  border: 0;
+  cursor: pointer;
+  }
+  
+  .titlebtn {
+  display:block;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+  .titlebtn #btn1{
+  background-color: white;
+  display: inline-block;
+  height: 35px;
+  color: black;
+  padding: 13px;
+  text-align: center;
+  width: 100px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: arial;
+  }
+  
+  
+  .titlebtn #btn1:hover {
+  background-color: teal;
+  color: white;
+  transition: ease 0.8 background;
+  }
+  
+  .titlebtn #btn2{
+   background-color: white;
+   display: inline-block;
+   height: 35px;
+   color: black;
+   padding: 13px;
+   text-align: center;
+   width: 100px;
+   cursor: pointer;
+   font-size: 16px;
+   font-family: arial;
+  }
+  
+  .titlebtn #btn2:hover {
+  background-color: teal;
+  color: white;
+  }
+
+}
+
+/*Media query for max-width of 1280px*/
+
+@media (max-width: 1280px) {
+
+  .HeaderSection {
+
+    background-color: white;
+    height: 90px;
+    width: 100%;
+    position: relative;
+    line-height: 1;
+  }
+  
+  .headingtitle{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: gold;
+  }
+  
+  .HeaderDesign {
+  padding: 30px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .search{
+  display: block;
+  position: relative;
+  }
+  #search-space {
+  width: 370px; 
+  height: 35px;
+  margin-left: 10px;
+  border-radius: 9px;
+  text-align:center;
+  position: relative;
+  outline: 0; 
+  }
+  
+  #submit{
+  border-radius: 5px;
+  outline: 0;
+  height: 35px;
+  padding: 10px;
+  margin: -5px;
+  color: white;
+  background: black;
+  border: 0;
+  cursor: pointer;
+  }
+  
+  .titlebtn {
+  display:block;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+  .titlebtn #btn1{
+  background-color: white;
+  display: inline-block;
+  height: 35px;
+  color: black;
+  padding: 13px;
+  text-align: center;
+  width: 100px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: arial;
+  }
+  
+  
+  .titlebtn #btn1:hover {
+  background-color: teal;
+  color: white;
+  transition: ease 0.8 background;
+  }
+  
+  .titlebtn #btn2{
+   background-color: white;
+   display: inline-block;
+   height: 35px;
+   color: black;
+   padding: 13px;
+   text-align: center;
+   width: 100px;
+   cursor: pointer;
+   font-size: 16px;
+   font-family: arial;
+  }
+  
+  .titlebtn #btn2:hover {
+  background-color: teal;
+  color: white;
+  }
+
+}
+
+
+/*media for devices with 1024px*/ 
+@media (max-width: 1024px) {
+
+  .HeaderSection {
+
+    background-color: white;
+    height: 90px;
+    width: 100%;
+    position: relative;
+    line-height: 1;
+  }
+  
+  .headingtitle{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: gold;
+  }
+  
+  .HeaderDesign {
+  padding: 30px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .search{
+  display: block;
+  position: relative;
+  }
+  #search-space {
+  width: 370px; 
+  height: 35px;
+  margin-left: 10px;
+  border-radius: 9px;
+  text-align:center;
+  position: relative;
+  outline: 0; 
+  }
+  
+  #submit{
+  border-radius: 5px;
+  outline: 0;
+  height: 35px;
+  padding: 10px;
+  margin: -5px;
+  color: white;
+  background: black;
+  border: 0;
+  cursor: pointer;
+  }
+  
+  .titlebtn {
+  display:block;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+  .titlebtn #btn1{
+  background-color: white;
+  display: inline-block;
+  height: 35px;
+  color: black;
+  padding: 13px;
+  text-align: center;
+  width: 100px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: arial;
+  }
+  
+  
+  .titlebtn #btn1:hover {
+  background-color: teal;
+  color: white;
+  transition: ease 0.8 background;
+  }
+  
+  .titlebtn #btn2{
+   background-color: white;
+   display: inline-block;
+   height: 35px;
+   color: black;
+   padding: 13px;
+   text-align: center;
+   width: 100px;
+   cursor: pointer;
+   font-size: 16px;
+   font-family: arial;
+  }
+  
+  .titlebtn #btn2:hover {
+  background-color: teal;
+  color: white;
+  }
+}
+
+
+
+
+
+/*media for devices with min-width: 768px*/
+@media (min-width: 768px) {
+
+  .HeaderSection {
+
+    background-color: white;
+    height: 90px;
+    width: 100%;
+    position: relative;
+    line-height: 1;
+  }
+  
+  .headingtitle{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: gold;
+  }
+  
+  .HeaderDesign {
+  padding: 30px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .search{
+  display: block;
+  position: relative;
+  }
+  #search-space {
+  width: 360px; 
+  height: 35px;
+  margin-left: 10px;
+  border-radius: 9px;
+  text-align:center;
+  position: relative;
+  outline: 0; 
+  }
+  
+  #submit{
+  border-radius: 5px;
+  outline: 0;
+  height: 35px;
+  padding: 10px;
+  margin: -5px;
+  color: white;
+  background: black;
+  border: 0;
+  cursor: pointer;
+  }
+  
+  .titlebtn {
+  display:block;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+  .titlebtn #btn1{
+  background-color: white;
+  display: inline-block;
+  height: 35px;
+  color: black;
+  padding: 13px;
+  text-align: center;
+  width: 100px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: arial;
+  }
+  
+  
+  .titlebtn #btn1:hover {
+  background-color: teal;
+  color: white;
+  transition: ease 0.8 background;
+  }
+  
+  .titlebtn #btn2{
+   background-color: white;
+   display: inline-block;
+   height: 35px;
+   color: black;
+   padding: 13px;
+   text-align: center;
+   width: 100px;
+   cursor: pointer;
+   font-size: 16px;
+   font-family: arial;
+  }
+  
+  .titlebtn #btn2:hover {
+  background-color: teal;
+  color: white;
+  }
+
+  .BicycleEventsLists {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    position: relative;
+    grid-gap: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightslategray;
+    font-size: 18.33px;
+    margin-bottom: 5px;
+  }
+
+
+}
+
+/*media query for 1000px devices*/
+
+@media (max-width: 1000px) {
+
+.news .newsLetter {
+  font-size: 2.0em;
+  text-transform: capitalize;
+  font-family: arial;
+  color: gold;
+  
+}
+
+.topnav .icon {
+  display: block;
+}
+
+.topnav .logo2 {
+  display: none;
+}
+
+}
+
+/*end of 1000px devices*/
+
+
+/*media for min-width of :481px  and max-width: 767*/
+
+@media(min-width:481px) and (max-width: 767px) {
+  .BicycleEventsLists {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    position: relative;
+    grid-gap: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightslategray;
+    font-size: 18.33px;
+    margin-bottom: 5px;
+  }
+
+  .HeaderSection {
+
+    background-color: white;
+    height: 90px;
+    width: 100%;
+    position: relative;
+    line-height: 1;
+  }
+  
+  .headingtitle{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: gold;
+  display: none;
+  }
+  
+  .HeaderDesign {
+  padding: 30px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .search{
+  display: block;
+  position: relative;
+  }
+  #search-space {
+  width: 300px; 
+  height: 35px;
+  margin-left: 10px;
+  border-radius: 9px;
+  text-align:center;
+  position: relative;
+  outline: 0; 
+  }
+  
+  #submit{
+  border-radius: 5px;
+  outline: 0;
+  height: 35px;
+  padding: 10px;
+  margin: -5px 5px -5px -5px;
+  color: white;
+  background: black;
+  border: 0;
+  cursor: pointer;
+  }
+}
+
+/*media for 800px devices*/
+@media(max-width: 800px) {
+
+  .headingtitle{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: gold;
+    display: none;
+    }
+    
+    .HeaderDesign {
+    padding: 30px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    .search{
+    display: block;
+    position: relative;
+    }
+    #search-space {
+    width: 450px; 
+    height: 37px;
+    margin-left: 7px;
+    border-radius: 9px;
+    text-align:center;
+    position: relative;
+    outline: 0; 
+    }
+    
+    #submit{
+    border-radius: 5px;
+    outline: 0;
+    height: 35px;
+    padding: 10px;
+    margin: -5px;
+    color: white;
+    background: black;
+    border: 0;
+    cursor: pointer;
+    }
+    
+
+  .BicycleRegistrationHeader {
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    width: 90%;
+    margin: auto;
+    
+  }
+
+  .BicycleEventsHeader {
+    display: block;
+    width: 60%;
+    margin: auto;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .BicycleEventsLists {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    position: relative;
+    grid-gap: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightslategray;
+    font-size: 18.33px;
+    margin-bottom: 5px;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: rgba(14, 5, 92, 0.932);
+    position: relative;
+  }
+
+  .topnav #mylinks {
+    display: none;
+    height: 450px;
+  }
+
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .logo2 {
+    background-color: red;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: block;
+  }
+  
+  .topnav .logo2 {
+    display: block;
+  }
+}
+
+/*end of 800px devices*/
+
+/*media for 600px devices*/
+
+@media (max-width:600px) {
+
+
+  .headingtitle{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: gold;
+    display: none;
+    }
+
+  #search-space {
+  width: 280px; 
+  height: 37px;
+  margin-left: 7px;
+  border-radius: 9px;
+  text-align:center;
+  position: relative;
+  outline: 0; 
+  
+  }
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: block;
+}
+
+.topnav .logo2 {
+  display: block;
+}
+
+
+.BicycleEventsLists {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  position: relative;
+  grid-gap: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightslategray;
+  font-size: 16.33px;
+  margin-bottom: 5px;
+}
+}
+
+/*media for 750px devices*/
+@media(max-width: 750px) {
+  .headingtitle{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: gold;
+    display: none;
+    }
+
+  #search-space {
+  width: 280px; 
+  height: 37px;
+  margin-left: 7px;
+  border-radius: 9px;
+  text-align:center;
+  position: relative;
+  outline: 0; 
+  
+  }
+}
+
+
+/*media for screen 500px media*/
+
+@media (max-width: 500px) {
+
+  .search{
+    display: block;
+    position: relative;
+    }
+    #search-space {
+    width: 300px; 
+    height: 35px;
+    margin-left: 10px;
+    border-radius: 9px;
+    text-align:center;
+    position: relative;
+    outline: 0; 
+    }
+    
+    #submit{
+    border-radius: 5px;
+    outline: 0;
+    height: 35px;
+    padding: 10px;
+    margin: -5px 5px -5px -5px;
+    color: white;
+    background: black;
+    border: 0;
+    cursor: pointer;
+    }
+  }
+  
+  /*media for 800px devices*/
+  @media(max-width: 800px) {
+  
+    .headingtitle{
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      color: gold;
+      display: none;
+      }
+      
+      .HeaderDesign {
+      padding: 30px;
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      }
+      
+      .search{
+      display: flex;
+      position: relative;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-left: 0;
+      width: 290px;
+      }
+      #search-space {
+      width: 280px; 
+      height: 37px;
+      /* margin-left: 7px; */
+      border-radius: 9px;
+      text-align:center;
+      position: relative;
+      outline: 0; 
+      }
+      
+      #submit{
+      border-radius: 5px;
+      outline: 0;
+      height: 35px;
+      margin-left: 5px;
+      color: white;
+      background: black;
+      border: 0;
+      cursor: pointer;
+      }
+
+      .titlebtn {
+        display: flex;
+      }
+
+      .titlebtn #btn1{
+        background-color: white;
+        display: inline-block;
+        height: 35px;
+        color: black;
+        padding: 13px;
+        text-align: center;
+        width:80px;
+      }
+        
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+
+.BicycleEventsHeader {
+  display: block;
+  width: 70%;
+  margin: auto;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: static;
+}
+
+.header {
+  text-align: center;
+  font-size: 1.6em;
+  font-family: Arial, Helvetica, sans-serif;
+  position: static;
+}
+
+.BicycleEventsHeader .line {
+  height: 5px;
+  width: 200px;
+  background-color: red;
+  position: static;
+  display: block;
+  margin: auto;
+}
+
+.headerpara {
+  text-align: center;
+  color: inherit;
+  padding: 5px;
+  font-size: 0.7em;
+  font-family: sans-serif;
+}
+
+.BicycleEventsLists {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  position: relative;
+  grid-gap: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightslategray;
+  font-size: 16.33px;
+  margin-bottom: 5px;
+}
+ 
+.BicycleRegistration {
+
+  font-size: 1.5em;
+
+}
+
+.BicycleRegistrationHeader h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  margin: 8px auto auto auto;
+  font-family: arial;
+
+}
+
+.BicycleRegistrationHeader .line {
+  height: 5px;
+  width: 190px;
+  background-color: red;
+  position: relative;
+  display: block;
+  margin: auto; 
+}
+
+.media {
+  height: 50px;
+}
+
+.socialmedia .top {
+  position: relative;
+  padding: 8px 5px 0 10px;
+  font-size: 20.33px;
+  color: white;
+}
+
+.socialmedia h3 {
+  color: gold;
+  font-size: 1.3em;
+}
+
+.news {
+  display: none;
+}
+
+.footerItems {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 2px;
+  width: 100%;
+  position: relative;
+}
+
+}
+
+
+/*media query for min-width: 320px and max-width: 480px*/
+
+@media(min-width: 320px) and (max-width: 480px){
+
+  .headingtitle{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: gold;
+    display: none;
+    }
+
+  #search-space {
+  width: 350px; 
+  height: 37px;
+  margin-left: 7px;
+  border-radius: 9px;
+  text-align:center;
+  position: relative;
+  outline: 0; 
+  
+  }
+
+  
+.BicycleEventsLists {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  position: relative;
+  grid-gap: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightslategray;
+  font-size: 16.33px;
+  margin-bottom: 5px;
+}
+}
+ 
+
+
+
+
+
+
+/* Image slider query for 300px  */
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 400px) {
+    .text {font-size: 11px}
+
+    .search{
+      display: flex;
+      position: relative;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-left: 0;
+      width: 290px;
+      }
+      #search-space {
+      width: 160px; 
+      height: 37px;
+      border-radius: 9px;
+      text-align:center;
+      position: relative;
+      outline: 0; 
+      }
+      
+      #submit{
+      border-radius: 5px;
+      outline: 0;
+      height: 35px;
+      margin-left: 5px;
+      color: white;
+      background: black;
+      border: 0;
+      cursor: pointer;
+      }
+
+      .titlebtn {
+        display: flex;
+      }
+
+      .titlebtn #btn1{
+        background-color: white;
+        display: inline-block;
+        height: 35px;
+        color: black;
+        padding: 13px;
+        text-align: center;
+        width:60px;
+      }
+  }
+
+  /* media screen for 350px */ 
+  @media(max-width: 350px) {
+    .search{
+      display: flex;
+      position: relative;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-left: 0;
+      width: 290px;
+      }
+      #search-space {
+      width: 280px; 
+      height: 37px;
+      /* margin-left: 7px; */
+      border-radius: 9px;
+      text-align:center;
+      position: relative;
+      outline: 0; 
+      }
+      
+      #submit{
+      border-radius: 5px;
+      outline: 0;
+      height: 35px;
+      margin-left: 5px;
+      color: white;
+      background: black;
+      border: 0;
+      cursor: pointer;
+      }
+
+      .titlebtn {
+        display: none;
+      }
+
+      .BicycleEventsLists {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        position: relative;
+        grid-gap: 4px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: lightslategray;
+        font-size: 18.33px;
+        margin-bottom: 5px;
+      }
+
+      .text {
+        display: none;
+      }
+      
+
+      .header {
+        text-align: center;
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        position: static;
+      }
+
+      .socialmedia h3 {
+        color: gold;
+        font-size: 1.0em;
+      
+      }
+  }
+
+
+  /*****Registration Css page Query*/
+  @media (max-width: 600px) and (max-width: 500px) {
+    .mainHeading {
+      text-align: center;
+      font-size: 1.4em;
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: normal;
+      font-variant: normal;
+  }
+  }

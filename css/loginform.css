@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    --color:white;
+}
+
+body{
+    background: white;
+    width: 100%;
+    font-family: arial;
+    font-size: 16px;
+}
+
+.login-main-container{
+    width: 100%;
+    position: relative;
+    display: grid;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-subcontainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.login-img{
+    max-width: 100%;
+    height: 600px;
+    width: 100%; 
+    background: url(../images/rim.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .login-img .img{
+    max-width: 100%;
+    width: 100%;
+    background: url(../images/bicycle.jpeg);
+} */
+
+.login-form{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   max-width: 100%;
+   background: rgb(235, 235, 235);
+}
+.login-form2{
+   top: 100px;
+   position: relative;
+   width: 90%;
+   display: flex;
+   flex-direction: column;
+   position: relative; 
+   margin: auto;
+}
+
+.login-form .login-title{
+    text-align: center;
+    margin-right: 35px;
+    margin-bottom: 20px;
+}
+
+.login-form .login-title h1{
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.login-form .login-form-input{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+
+form{
+    position: relative;
+    top: 30px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 90%;
+}
+
+#input{
+    height: 45px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    outline: 0;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1) ;
+    border: 0;
+    background: white;
+    font-size: 13px;
+}
+
+::-webkit-input-placeholder{
+    padding-left: 20px;
+    font-family: monospace;
+    font-size: 22px;
+}
+
+.login-form2 .login-text{
+    width: 90%;
+    top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.login-form2 .login-text p a{
+    text-decoration: none;
+    color: black;
+}
+
+.login-form2 .login-text p a:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login-form2 .login-submit{
+    position: relative;
+    top: -50px;
+    width: 100%;
+}
+
+#submit-login{
+    width: 90%;
+    border-radius: 10px;
+    background: blue;
+    color: white;
+    height: 35px;
+    outline: 0;
+    border: 0;
+    display: block;
+}
+
+.media-login{
+    margin: auto;
+    position: relative;
+    top: -100px;
+}
+.media-login h3{
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.media-login #icons{
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: blue;
+}
+
+
+@media (max-width:700px){
+    .login-main-container{
+        width: 100%;
+        position: relative;
+        display: grid;
+        background: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .login-img{
+        width: 100%; 
+        background: url(../images/rim.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width:460px){
+    .login-main-container{
+        width: 100%;
+        position: relative;
+        display: grid;
+        background: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .login-form2 .login-submit{
+        position: relative;
+        top: 3px;
+        width: 100%;
+    }
+    
+    #submit-login{
+        width: 90%;
+        border-radius: 10px;
+        background: blue;
+        color: white;
+        height: 35px;
+        outline: 0;
+        border: 0;
+        display: block;
+    }
+    .login-form2 .login-text{
+        width: 90%;
+        top: 30px;
+        position: relative;
+        font-size: 2px;
+        display: block;
+    }
+    .login-form2 .login-text .checkbox{
+        width: 100%;
+    }
+    .login-form2 .login-text p a{
+        text-decoration: none;
+        color: black;
+        width: 100%;
+    }
+    
+    .login-form2 .login-text p a:hover{
+        color: red;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+
